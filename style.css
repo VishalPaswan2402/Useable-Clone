@@ -1,24 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: border-box;
     text-decoration: none;
 }
-.top{
+
+.top {
     height: 50px;
     width: 100%;
-    background-image: url("h17.jpeg");
+    background-image: url("/images/h17.jpeg");
     background-size: cover;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
-.top a{
+
+.top a {
     color: white;
     text-decoration: none;
 }
-.top2{
+
+.top2 {
     height: 80px;
     width: 100%;
     /* background-color: rgb(242, 232, 219); */
@@ -28,16 +31,19 @@
     align-items: center;
     flex-wrap: wrap;
 }
-#shape{
+
+#shape {
     margin-left: 150px;
     font-size: 1.8rem;
 }
-.shapetext{
+
+.shapetext {
     margin-left: 5px;
     font-size: 1.4rem;
     color: black;
 }
-.top2text{
+
+.top2text {
     height: 30px;
     width: 150px;
     margin-left: 5px;
@@ -49,20 +55,25 @@
     justify-content: space-evenly;
     font-size: 1.1rem;
 }
-.text2{
+
+.text2 {
     color: rgb(47, 59, 112);
 }
-.name{
+
+.name {
     margin-left: 250px;
     font-size: 1.1rem;
 }
-.name a{
+
+.name a {
     margin-left: 30px;
 }
+
 .top2 .name a:hover {
     color: rgb(232, 2, 41);
 }
-.log1{
+
+.log1 {
     height: 40px;
     width: 100px;
     margin-left: 30px;
@@ -76,7 +87,8 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.log2{
+
+.log2 {
     height: 40px;
     width: 150px;
     background-color: rgb(111, 94, 236);
@@ -90,27 +102,34 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.log2 a{
+
+.log2 a {
     color: white;
 }
-.name a:hover{
+
+.name a:hover {
     color: blue;
 }
-.log2:hover{
+
+.log2:hover {
     background-color: rgb(26, 26, 195);
     border: 2px solid rgb(26, 26, 195);
 }
-.log1:hover a{
+
+.log1:hover a {
     color: blue;
 }
-.log1:hover{
+
+.log1:hover {
     border: 2px solid blue;
 }
-.topcontent{
+
+.topcontent {
     display: flex;
     justify-content: space-evenly;
 }
-.contentleft{
+
+.contentleft {
     height: 500px;
     width: 40%;
     /* background-color: rgb(167, 192, 119); */
@@ -118,28 +137,33 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.credit{
+
+.credit {
     margin-top: 10px;
     color: gray;
 }
-.contentright{
+
+.contentright {
     height: 500px;
     width: 50%;
     /* background-color: rgb(159, 210, 63); */
-    background-image: url(h2.jpg);
+    background-image: url(/images/h2.jpg);
     background-size: cover;
 }
-.bold{
+
+.bold {
     font-size: 3rem;
     font-weight: 550;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 130px;
 }
-.bold1{
+
+.bold1 {
     margin-top: 15px;
     font-size: 1.5rem;
 }
-.log21{
+
+.log21 {
     height: 40px;
     width: 200px;
     background-color: rgb(111, 94, 236);
@@ -155,58 +179,68 @@
     margin-top: 50px;
     margin-left: 190px;
 }
-.log21 a{
+
+.log21 a {
     color: white;
 }
-.log21:hover{
+
+.log21:hover {
     background-color: rgb(26, 26, 195);
     border: 2px solid rgb(26, 26, 195);
 }
-.text1{
+
+.text1 {
     display: flex;
     text-align: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 30px;
 }
-.text1 a{
+
+.text1 a {
     font-size: 1.2rem;
 }
-.logo{
+
+.logo {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
 }
-.logo1{
+
+.logo1 {
     height: 68px;
     width: 140px;
     background-color: chartreuse;
-    background-image: url(h3.png);
+    background-image: url(/images/h3.png);
     background-size: cover;
 }
-.logo2{
+
+.logo2 {
     height: 68px;
     width: 160px;
     background-color: rgb(82, 45, 202);
-    background-image: url(h4.png);
+    background-image: url(/images/h4.png);
     background-size: cover;
 }
-.logo3{
+
+.logo3 {
     height: 80px;
     width: 300px;
     background-color: rgb(202, 202, 37);
-    background-image: url(h5.png);
+    background-image: url(/images/h5.png);
     background-size: cover;
 }
-.logo4{
+
+.logo4 {
     height: 80px;
     width: 250px;
     background-color: rgb(224, 139, 27);
-    background-image: url(h6.png);
+    background-image: url(/images/h6.png);
     background-size: cover;
 }
-.research{
+
+.research {
     height: 800px;
     width: 95%;
     background-color: rgb(91, 167, 175);
@@ -216,18 +250,20 @@
     display: table;
     text-align: center;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     background-size: contain;
-    background-image: url(h30.jpg);
+    background-image: url(/images/h30.jpg);
     background-size: cover;
 }
-.topic{
+
+.topic {
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 550;
     /* margin-top: 50px;    */
 }
-.feature{
+
+.feature {
     height: 50px;
     width: 200px;
     /* background-color: green; */
@@ -237,34 +273,40 @@
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     border-radius: 15px;
 }
-.feature a{
+
+.feature a {
     color: rgb(0, 0, 0);
     font-size: 1.4rem;
 }
-#arrow{
+
+#arrow {
     font-size: 1.2rem;
     margin-left: 5px;
 }
-.feature:hover{
+
+.feature:hover {
     border: 2px solid blue;
 }
-.card{
+
+.card {
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.card1{
+
+.card1 {
     height: 300px;
     width: 400px;
     /* background-color: yellowgreen; */
     /* border: 2px solid black; */
 }
-.photo{
+
+.photo {
 
     height: 50px;
     width: 50px;
@@ -274,47 +316,56 @@
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
-.data{
+.data {
     margin-top: 20px;
 }
-#layer{
+
+#layer {
     font-size: 2.6rem;
     color: rgb(0, 255, 30);
 }
-#prototype{
+
+#prototype {
     font-size: 2.6rem;
     color: rgb(251, 18, 201);
 }
-#click{
+
+#click {
     font-size: 2.6rem;
     color: rgb(0, 225, 255);
     /* background-color: rgb(89, 71, 252); */
 }
-#help{
+
+#help {
     font-size: 2.6rem;
     color: rgb(255, 191, 0);
 }
-#heart{
+
+#heart {
     font-size: 2.6rem;
     color: rgb(253, 25, 97);
 }
-#time{
+
+#time {
     font-size: 2.6rem;
     color: rgb(154, 25, 253);
 }
-.detailhead{
+
+.detailhead {
     font-size: 2.2rem;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.detail{
+
+.detail {
     font-size: 1.7rem;
     margin-top: 10px;
 }
-.learn{
+
+.learn {
     height: 40px;
     width: 180px;
     border: 2px solid rgb(193, 193, 193);
@@ -322,42 +373,45 @@
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     font-size: 1.3rem;
     margin-top: 15px;
     margin-left: 110px;
 
 }
-.learn:hover{
+
+.learn:hover {
     border: 2px solid rgb(0, 174, 255);
 }
 
 
-.middle{
+.middle {
     height: 1550px;
     width: 75%;
     /* background-color: rgb(91, 167, 175); */
     margin-left: 190px;
     margin-top: 50px;
     /* display: flow-root; */
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     /* background-size: contain; */
     /* background-image: url(h30.jpg); */
     /* background-size: cover; */
 }
-.middletop1{
+
+.middletop1 {
     height: 490px;
     width: 45%;
     /* background-color: green; */
     /* border: 2px solid black; */
-    background-image: url(h13.png);
+    background-image: url(/images/h13.png);
     background-size: cover;
 }
-.middletop2{
+
+.middletop2 {
     height: 490px;
     width: 40%;
     /* background-color: rgb(128, 124, 0); */
@@ -365,58 +419,66 @@
 
 }
 
-.profile{
+.profile {
     height: 50px;
     width: 300px;
     /* background-color: white; */
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content:space-evenly ;
+    justify-content: space-evenly;
     text-align: center;
     margin-top: 30px;
     margin-left: 70px;
 }
-.profile1{
+
+.profile1 {
     height: 50px;
     width: 50px;
     border-radius: 50px;
     /* background-color: pink; */
     background-size: cover;
-   
+
 }
-.head1{
+
+.head1 {
     margin-top: 50px;
     font-size: 1.4rem;
     font-weight: 550;
 }
-.headmain{
+
+.headmain {
     font-size: 2.5rem;
     font-family: cursive;
     font-weight: 550;
 }
-.body1{
+
+.body1 {
     font-size: 1.3rem;
     margin-top: 15px;
 }
-.head2{
+
+.head2 {
     margin-top: 25px;
     font-size: 1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 550;
 }
-.body2{
+
+.body2 {
     margin-top: 10px;
     font-size: 1.3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.plateform{
+
+.plateform {
     margin-top: 50px;
     font-size: 3rem;
     text-align: center;
     font-weight: 600;
 }
-.log212{
+
+.log212 {
     height: 40px;
     width: 250px;
     background-color: #3c6fb7;
@@ -432,15 +494,18 @@
     margin-top: 25px;
     margin-left: 41%;
 }
-.log212 a{
+
+.log212 a {
     color: rgb(0, 0, 0);
     align-items: center;
     color: white;
 }
-.log212:hover{
+
+.log212:hover {
     background-color: rgb(67, 5, 255);
 }
-.four{
+
+.four {
     height: 380px;
     width: 90%;
     /* background-color: goldenrod; */
@@ -448,10 +513,11 @@
     margin-left: 85px;
     display: flex;
     text-align: center;
-    align-items:center;
+    align-items: center;
     justify-content: space-evenly;
 }
-.part1{
+
+.part1 {
     height: 100%;
     width: 23%;
     /* background-color: blueviolet; */
@@ -461,18 +527,20 @@
     background-size: cover;
     transition: 0.5s;
 }
-.part1 p{
+
+.part1 p {
     font-size: 1.7rem;
     font-family: cursive;
     font-weight: 600;
     color: rgb(255, 255, 255);
 }
-.part1:hover{
+
+.part1:hover {
     /* transform: scale(1.01); */
     box-shadow: 4px 4px 8px rgb(45, 42, 42);
 }
 
-.bottomdark{
+.bottomdark {
     height: 650px;
     width: 100%;
     background-color: rgb(30, 60, 79);
@@ -480,64 +548,75 @@
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
 }
-.dark1{
+
+.dark1 {
     height: 600px;
     width: 42%;
     /* background-color: green; */
     /* border: 2px solid black; */
 }
-.h2{
+
+.h2 {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
 }
-.h2main{
+
+.h2main {
     color: white;
 }
-.h2data{
+
+.h2data {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
 }
-.h1head{
+
+.h1head {
     margin-top: 110px;
 
 }
 
-.dark1 .h1{
+.dark1 .h1 {
     font-size: 2.2rem;
     font-family: cursive;
     font-weight: 550;
     color: white;
 }
-.p1d{
+
+.p1d {
     margin-top: 20px;
 }
-.dark1 .p1{
+
+.dark1 .p1 {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: rgb(142, 188, 201);
 }
-.h2{
+
+.h2 {
     margin-top: 20px;
     font-size: 1.2rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.h2data{
+
+.h2data {
     margin-top: 20px;
 }
-.h2data li{
+
+.h2data li {
     margin-left: 20px;
     margin-top: 10px;
     font-size: 1.1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.bottombutton{
+
+.bottombutton {
     display: flex;
     text-align: center;
     /* justify-content: space-evenly; */
@@ -545,7 +624,8 @@
     margin-top: 30px;
     margin-left: 60px;
 }
-.calculator{
+
+.calculator {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -557,10 +637,12 @@
     border-radius: 10px;
     color: white;
 }
-.calculator:hover{
+
+.calculator:hover {
     background-color: blue;
 }
-.learnmore{
+
+.learnmore {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -572,21 +654,26 @@
     border-radius: 10px;
     margin-left: 30px;
 }
-.learnmore:hover{
+
+.learnmore:hover {
     border: 2px solid rgb(255, 22, 100);
 }
-.or{
+
+.or {
     font-size: 1.7rem;
     margin-left: 25px;
     color: white;
 }
-.try{
+
+.try {
     color: white;
 }
-.dark1{
+
+.dark1 {
     background-size: cover;
 }
-.trial{
+
+.trial {
     height: 450px;
     width: 100%;
     /* background-color: pink; */
@@ -596,12 +683,14 @@
     align-items: center;
     /* justify-content: space-evenly; */
 }
-.start{
+
+.start {
     margin-top: 80px;
     font-size: 3.8rem;
     font-weight: 550;
 }
-.free{
+
+.free {
     height: 40px;
     width: 180px;
     background-color: rgb(111, 94, 236);
@@ -616,25 +705,31 @@
     justify-content: space-evenly;
     margin-top: 30px;
 }
-.free a{
+
+.free a {
     color: white;
 }
-.free:hover{
+
+.free:hover {
     background-color: blue;
 }
-.start1{
+
+.start1 {
     margin-top: 30px;
     font-size: 1.8rem;
 }
-.start1 p{
+
+.start1 p {
     margin-top: 5px;
     color: rgb(101, 101, 101);
 }
-.small{
+
+.small {
     color: grey;
     margin-top: 5px;
 }
-.last{
+
+.last {
     height: 370px;
     width: 100%;
     background-color: rgb(219, 226, 234);
@@ -644,41 +739,48 @@
     justify-content: space-evenly;
 }
 
-.ll{
+.ll {
     height: 350px;
     width: 24%;
     /* background-color: gray; */
     /* border: 2px solid black; */
 }
-.hub{
+
+.hub {
     font-size: 2rem;
     font-weight: 540;
 }
-#hub1{
+
+#hub1 {
     margin-top: 35px;
 }
-.hub1{
+
+.hub1 {
     margin-top: 35px;
     color: black;
 }
-.p1{
+
+.p1 {
     margin-top: 35px;
     font-size: 2rem;
 }
-.p12{
+
+.p12 {
     font-size: 1.3rem;
     margin-top: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-.p12 a{
+
+.p12 a {
     color: rgb(121, 121, 121);
 }
+
 .p12 a:hover {
     color: blue;
 }
 
-.foot{
+.foot {
     height: 60px;
     width: 100%;
     background-color: #9db0ca;
@@ -687,10 +789,12 @@
     text-align: center;
     justify-content: space-evenly;
 }
-.foot a{
+
+.foot a {
     font-size: 1.5rem;
     color: black;
 }
-.foot a:hover{
-    color:rgb(21, 0, 255)
+
+.foot a:hover {
+    color: rgb(21, 0, 255)
 }
