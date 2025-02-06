@@ -1,6 +1,6 @@
 # 🌐 Website Clone
 
-A fully responsive **Website Clone** built using **HTML and CSS**, designed to replicate the look and feel of the original website.
+A **Website Clone** built using **HTML and CSS**, designed to replicate the look and feel of the original website.
 
 ## 🚀 Features
 - 🎨 **Pixel-perfect UI** – Matches the original website’s design.
